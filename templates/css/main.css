@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Montserrat:400,700');
+@font-face {
+    src: url("../fonts/MyriadPro-Regular.otf");
+    font-family: "Myriad Reg";
+}
+
+.navbar-nav{
+    width: 100%;
+}
+
+
+.navbar-nav .nav-link {
+    font-size: 24px;
+    font-family: 'Myriad Reg', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffffff;
+    transition: color .3s ease-in-out;
+    margin: 30px;
+    margin-left: -5px;
+}
+
+.navbar-dark .navbar-nav> .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:active,
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: #12abbf;
+}
+
+.mobile-logo{
+    display: none !important;
+}
+
+.mobile-logo h6{
+    font-size: 30px;
+    color: #fff;
+}
+.main-container{
+    background-color:#12abbf;
+    padding-bottom: 80px;
+}
+
+.main-container h1{
+    font-size: 92px;
+    font-family: 'Myriad Reg', sans-serif; 
+    color:  #ffffff;
+}
+.main-headers{
+    margin-top: 250px;
+}
+
+.main-container p{
+  margin-top: 40px;
+}
+
+.main-container p a{
+    font-size: 32px;
+    font-family: 'Myriad Reg', sans-serif;
+    color: #a8d6e0;
+    text-decoration: none;
+}
+
+.main-container i{
+    font-size: 30px;
+    font-weight: bold;
+    color:  #ffffff;
+    padding-left: 400px;
+}
+
+.files-container{
+    background-color:#27212c;    
+}
+
+.files-container h1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 40px;
+    font-family: 'Regular', sans-serif; 
+    color:  #776a83;
+    padding-right:100px;
+   
+}
+.arrow i{
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 100px;
+    padding-top:100px;
+    font-weight: bold;
+}
+
+.arrow{
+    position:relative;   
+    background:#27212c;
+    color:#fff:   
+}
+
+.element:hover .arrow i{
+    color: #000;
+}
+.element{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:#bc3183;
+    display:none;
+}
+
+.arrow:hover .element{
+    display:block;
+}
+
+.elements-contasiner{
+    background-:#bc3183; 
+}
+.photo-container .col-lg-4{
+  padding: 0;
+ }
+
+.elements{
+    position:relative;   
+    background:#5b0fa1;
+    color:#fff:   
+}
+
+.elements i{
+    color: #fff;
+    font-size: 80px;
+    padding-top:150px;
+    font-weight: bold;
+    
+}
+
+.text-container{
+    background-color: #ebebeb;
+    padding-bottom: 100px;
+}
+
+.text-container p{
+    margin-top:80px;
+}
+
+.text-container p a{
+  font-size: 40px;
+  text-decoration: none;
+  font-family: 'Regular', sans-serif; 
+  color: #088ca5;
+}
+
+.text-elem p{
+    margin-top: 30px;
+    padding-bottom: 10px;
+    font-size: 19px;
+    font-family: "MyriadPro-Regular", sans-serif;
+    color: #515151;
+}
+
+@media   (max-width:991px){
+   .mobile-logo{
+    display: block !important;
+    }
+
+    .mobile-logo h6{
+    font-size: 16px;
+   
+    }
+
+    .navbar-toggler {
+    background-color: #202529;
+    border-radius: 0px;
+    margin: -23px;
+    height: 43px;
+    }
+
+    .navbar-dark .navbar-toggler{
+    border-color: #202529;
+    }
+
+    .navbar-nav .nav-link {
+    font-size: 15px;
+    text-align: center;
+    }
+     
+    .navbar-dark .navbar-nav .nav-link{
+    margin: 5px;
+    }
+
+    .main-headers{
+    margin-top: 150px;
+    }
+
+    .main-headers h1 {
+    font-size: 30px;
+    }
+
+    .main-container p a{
+    font-size: 20px;
+    }
+
+    .main-container i{
+    font-size: 20px;
+    padding-left: 100px;
+   
+    }
+
+    .files-container h1{
+    font-size: 9px;
+    padding-right: 45px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    
+
+    .arrow i{
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+
+    .elements i{
+    font-size: 60px;
+    padding-left:25px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    }
+
+    .text-container p{
+    margin-top:40px;
+    }
+    
+    .text-container p a{
+    font-size: 30px;
+    }
+
+    .text-elem p{
+    margin-top: 15px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    }
+}
+    
