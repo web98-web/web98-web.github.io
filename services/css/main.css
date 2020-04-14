@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Montserrat:400,700');
+@font-face {
+    src: url("../fonts/MyriadPro-Regular.otf");
+    font-family: "Myriad Reg";
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-family: "Open Sans";
+}
+
+.services{
+	margin-top: 20px;
+}
+.services h1{
+	font-size: 24px;
+    font-family:"Myriad Reg", sans-serif;
+    font-weight: bold;
+}
+
+.services_text{
+	margin-top: 25px;
+}
+
+.services_information p{
+	display: block;
+	padding: 10px 30px;
+	font-size: 26px;
+	line-height: 34px;
+	font-weight: 200;
+	border-left: 2px solid #ffc914;
+	width: auto;
+}
+
+.photo{
+	margin-top: 30px;
+}
+
+.price_list{
+	margin-top: 40px;
+}
+
+.price_list h1{
+	font-family: "Myriad Reg", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #37363a;
+	margin-bottom: 14px;
+}
+
+.price {
+	padding: 15px 10px;
+}
+
+.price td{
+	padding-bottom: 30px;
+}
+
+.price td:last-child{
+	font-weight: 700;
+	padding-bottom: 45px;
+	padding-left: 17px;
+}
+.price em{
+	margin: 0
+	padding:0;
+	font-size: 14px;
+	outline: none;
+	color: #37363a;
+	text-align: justify;
+}
+
+
+.cost{
+	margin-top: 50px;
+}
+
+.cost h2{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #37363a;
+	padding-bottom: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.cost p{
+	font-size: 15px;
+	line-height: 25px;
+	color: #37363a;
+	padding-left: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.block{
+	margin-top: 30px;
+}
+.block b{
+	display: block;
+	border-radius: 100%;
+	background: #ffca00;
+	color: #37363a;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 60px;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	float: left;
+	margin-right: 15px;
+}
+
+.block p{
+	font-weight: bold;
+}
+
+.contacts{
+	margin-top: 70px;
+}
+
+.contacts h4{
+	font-size: 19px;
+	padding-bottom: 14px;
+	font-weight: bold;
+}
+
+.line{
+	padding-bottom: 25px;
+	width:10%;
+	border-top:5px solid #ffca00;
+}
+.phone{
+	padding-bottom: 40px;
+}
+.phone img{
+	margin-top: 10px;
+	float: left;
+}
+.phone p{
+	font-size: 14px;
+}
+.phone h6{
+	padding-left: 40px;
+	margin-top: 25px;
+	font-size: 22px;
+}
+.forms{
+	padding-left: 94px;
+}
+.forms h6{
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+}
+.forms input{
+	width: 218px;
+	height: 26px;
+	border: 1px solid #bcbbbb;
+	padding-left: 7px;
+	padding-top: 2px
+	margin-top: 5px;
+	margin-bottom: 15px;
+	border-radius: 3px;
+	padding: 0 10px;
+	outline: none;
+}
+
+.main-button{
+	display: block;
+    height: 35px;
+    width: 180px;
+    color: #37363a;
+    background-color: #ffc914;
+    border: 2px solid #ffc914;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family:"Myriad Reg", sans-serif;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+   	font-weight: bold;
+}
+
+.main-button:hover {
+    color: #000;
+    border: 2px solid #ffe400;
+    background-color: #ffe400;
+}
+
+.branch{
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #999;
+}
+
+.branch h6{
+	text-align: right;
+	font-size: 9px;
+}
+
+@media (max-width: 992px){
+	
+	.slider{
+		margin-top: 20px;
+	}
+
+	.slider h1{
+		text-align: center;
+	}
+
+	.cost-container h2{
+		font-size: 24px;
+	}
+
+	 .forms{
+	padding-left:25px;
+	}
+
+	.branch h6{
+		text-align: center;
+	
+	}
+}
