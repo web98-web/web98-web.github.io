@@ -1,0 +1,945 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Montserrat:400,700');
+@font-face {
+    src: url("../fonts/MyriadPro-Regular.otf");
+    font-family: "Myriad Reg";
+}
+
+.navbar-brand img {
+    width: 195px;
+    height: auto;
+}
+.navbar-nav{
+    width: 100%;
+}
+
+.navbar-nav .nav-link {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #d5bf0b;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #ffffff;
+    transition: color .3s ease-in-out;
+}
+
+.main-container{
+    background: url("../img/picture.png") no-repeat right;
+
+}
+.main-container .row{
+    min-height: 100vh;
+}
+.main-container h1{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.main-headers{
+    margin-top: 290px;
+}
+.main-container p{
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 80px;
+}
+
+.main-button{
+    height: 55px;
+    width: 230px;
+    color: #444444;
+    background-color: #fff;
+    border: 2px solid #444444;
+    border-radius: 1px;
+    font-size: 18px;
+    font-family:"Myriad Reg", sans-serif;
+    text-transform: uppercase;
+    margin-top: 55px;
+    margin-bottom: 120px;
+}
+.main-button:hover{
+    color: #332e00;
+    border: 2px solid #ffe400;
+    background-color:#ffe400;
+}
+.about-container{
+    background: url("../img/op.jpg") no-repeat center/cover;
+}
+
+
+.about-container h1{
+    font-size: 36px;
+    font-family:"Myriad Reg", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-container p{
+    font-size: 16px;
+    font-family:"Myriad Reg", sans-serif;
+    color: #757575;
+    text-align: center;
+}
+.about-container p:first-child{
+    margin-top: 10px;
+}
+.about-container .about-p{
+    margin-bottom: 70px;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.main-buttons{
+    height: 55px;
+    width: 230px;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000000;
+    border-radius: 2px;
+    font-size: 18px;
+    font-family:"Myriad Reg", sans-serif;
+    margin: 0 10px;
+}
+
+.main-buttons:hover{
+    color: #ffe400;
+    border: 2px solid #000;
+    background-color:#000;
+}
+
+.invers-button:hover{
+    color: #000;
+    border: 2px solid #ffe400;
+    background-color: #ffe400;
+}
+
+.advantages-element i{
+    color: #ffe400;
+    font-size: 80px;
+    margin-top: 90px;
+    transition: color .6s linear;
+}
+
+.advantages-element h5{
+    font-size: 24px;
+    font-family:"Myriad Reg", sans-serif;
+    color: #d4d4d4;
+    margin-top:45px;
+}
+.advantages-element:hover h5{
+    color: #000;
+}
+.advantages-element p{
+    color: #000;
+    transition: transform .3s linear,opacity .6s linear;
+    transform: scaleY(0);
+    opacity: 0;
+} 
+.advantages-element:hover .advantages-element-inner{
+     background-color:#ffe400;
+ }
+.advantages-element:hover i{
+    color:#000;
+}
+.advantages-element:hover p{
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+.advantages-element-inner{
+    margin: 0 10px;
+    background-color: #000;
+    transition: background-color .6s linear;
+}
+.impressive-container h4{
+    font-size:30px;
+    font-family:"Myriad Reg", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 180px;
+    padding-bottom: 107px;
+}
+.responsive-container .container{
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 0 55px ;
+}
+
+.container h1{
+    font-size: 46px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.container p{
+    font-size: 13px;
+    font-family:"Montserrat", sans-serif;
+    color:#757575;
+}
+
+.responsive-container{
+    background: url("../img/light-lamp.png") no-repeat left;
+
+}
+.boots{
+    border-bottom: 1px solid #000;
+    text-align: left;
+
+}
+.boost .col-lg-6{
+    margin-top: 300px;
+}
+.boost h1{
+    font-size: 26px;
+    font-family:"Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: Bold;
+}
+
+.boost p{
+    font-size: 16px;
+    font-family:"Montserrat", sans-serif;
+    color:#757575;
+    margin-top: 50px;
+}
+
+.main-purchase{
+    height: 44px;
+    width: 130px;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #444444;
+    border-radius: 1px;
+    font-size: 13px;
+    font-family:"Myriad Reg", sans-serif;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 120px;
+
+}
+.main-purchase:hover{
+    color: #332e00;
+    border: 2px solid #ffe400;
+    background-color:#ffe400;
+}
+
+.list{
+    font-size: 16px;
+    font-family:"Myriad Reg", sans-serif;
+    color: #9f9f9f;
+    padding-top: 5px;
+    padding-left: 3px;
+
+}
+
+.list li{
+    list-style-type: none;
+    text-align: left;
+   padding-bottom: 10px;
+}
+
+.list li i{
+   color: #757575;
+    margin: 0 5px;
+}
+
+.preview-container {
+    background: url("../img/Preview.png") no-repeat center/cover;
+    margin-top: 125px;
+    background-attachment: fixed;
+}
+
+.information-container img{
+    text-align: center;
+    width: 235px;
+    height: auto;
+    margin-top: 167px;
+}
+
+.information-container h1{
+    font-size: 44px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #fdfdfd;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+.text-container p{
+    font-size: 16px;
+    font-family: "Myriad Reg", sans-serif;
+    color: #fdfdfd;
+    margin-top: 25px;
+}
+.buttons{
+    padding-bottom: 135px;
+}
+.information-buttons{
+    height: 55px;
+    width: 230px;
+    color: #fff;
+    background-color: #363837;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    font-size: 18px;
+    font-family:"Myriad Reg", sans-serif;
+    margin: 0 10px;
+    margin-top: 70px;
+}
+
+.information-buttons:hover {
+    color: #ffe400;
+    border: 2px solid #000;
+    background-color: #000;
+}
+
+.creative-container h1{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 190px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.creative-elem{
+  
+}
+
+.creative-elem img{
+    float: left;
+    margin-right: 15px;
+}
+
+.creative-elem h4 {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.creative-elem p{
+    font-size: 16px;
+    font-family: "Myriad Reg", sans-serif;
+    color: #ababab;
+}
+
+.portfolio-container{
+    margin-top: 170px;
+    background-color: #ffe400;
+    padding-bottom: 60px;
+}
+
+.portfolio-container h1{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+
+.button-base{
+    height: 35px;
+    width: 105px;
+    color: #000;
+    background-color: #ffe400;
+    border: 2px solid #000;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    margin: 0 5px;
+    margin-top: 50px;
+}
+
+.button-base:hover {
+    color: #ffe400;
+    border: 2px solid #000;
+    background-color: #000;
+}
+
+.photo-container .col-3{
+  padding: 0;
+ }
+
+.service-container {
+    margin-top: 235px;
+}
+
+.service-container img{
+    margin-left: -15px;
+}
+.idea-container h1{
+    font-size: 30px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.provide-elem{
+    float: right;
+}
+
+.provide-elem img{
+    margin-bottom: 30px;
+}
+
+.provide-elem h6{
+    font-size: 16px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.provide-elem p{
+    font-size: 16px;
+    text-align: center;
+    color: #757575;
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+
+.plan-container{
+    background-color: #fde51d;
+    padding-bottom: 145px;
+}
+
+.plan-container h1{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 147px;
+}
+
+.standard-elem{
+    margin-top: 150px;
+}
+
+.standard{
+    background: url("../img/blx1.png") no-repeat center/cover;
+    position: relative;
+}
+
+
+
+.standard:after{
+    content:"";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .6;
+    top: 0;
+    left: 0;
+}
+
+.standard-inner{
+    z-index:10;
+}
+
+.standard-elem h4{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 30px;
+    color: #fff;
+}
+
+.standard-elem p .dollor{
+    font-size: 15px;
+    padding-top: 30px;
+    color: #fff;
+}
+
+.standard-elem p .number{
+    font-size:30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.standard-elem p{
+    font-size: 13px;
+    font-family: "Myriad Reg", sans-serif;
+    color: #c5c5c5;
+}
+
+.list-elem{
+    background-color: #fff;
+    padding-bottom: 30px;
+    padding: 0;
+}
+.list-elem  ul {
+    padding: 0;
+}
+
+.list-elem li{
+    list-style-type: none;
+    padding-top: 35px;
+    border: 1px solid #f0f0f0;
+    padding-bottom: 15px;
+}
+
+.list-elem li i{
+    text-align: left;
+    color: #757575;
+    margin: 0 5px;
+}
+
+.get-elem {
+    background-color:#fff;
+    margin-top: 10px ;
+}
+.get-elem h5{
+    font-size: 14px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.premium-elem{
+    background-color:#fff;
+    margin-top: 10px ;
+}
+
+.team-container{
+    margin-top: 280px;
+    padding-bottom: 150px;
+}
+
+.team-container h1{
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.people-elem img{
+    background-color:#ebebeb;
+    margin-top: 130px;
+}
+
+.name-wrapper{
+    background-color:#ebebeb;
+    margin-top: 8px;
+}
+.name-wrapper h4 {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px  dashed #b9b9b9;
+}
+
+.name-wrapper p {
+    font-size: 11px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.action-container {
+    background: url("../img/blxh.jpg") no-repeat center/cover;
+    position: relative;
+}
+
+.action-container:after{
+    content:"";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .6;
+    top: 0;
+    left: 0;
+}
+
+.impressed-inner, .button-elem{
+    z-index:10;
+}
+
+.work-container h1{
+    font-size: 44px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #fdfdfd;
+    text-transform: uppercase;
+    margin-top: 110px;
+}
+
+.text-container p{
+    font-size: 16px;
+    font-family: "Myriad Reg", sans-serif;
+    color: #fdfdfd;
+}
+
+.button-elem{
+    padding-bottom: 75px;
+}
+
+.impressed-button{
+    height: 55px;
+    width: 230px;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    font-size: 18px;
+    font-family:"Myriad Reg", sans-serif;
+    text-transform: uppercase;
+    margin: 0 10px;
+    margin-top: 100px;
+}
+
+.impressed-button:hover {
+    color: #000;
+    border: 2px solid #ffe400;
+    background-color: #ffe400;
+}
+
+.get-button{
+    height: 55px;
+    width: 230px;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    font-size: 18px;
+    font-family:"Myriad Reg", sans-serif;
+    text-transform: uppercase;
+    margin: 0 10px;
+    margin-top: 70px;
+}
+
+.get-button:hover {
+    color: #000;
+    border: 2px solid #ffe400;
+    background-color: #ffe400;
+}
+
+.blog-container{
+    margin-top: 180px;
+    padding-bottom: 110px;
+}
+
+.blog-elem h1{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.gallery-elem{
+    margin-top: 120px;
+}
+.date-elem{
+    margin-top: -15px;
+    text-align: center;
+}
+
+.date-button{
+    height: 24px;
+    width: 120px;
+    color: #000;
+    background-color: #fff;
+    border: 5px solid #fff;
+    border-radius: 55px;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.single-elem{
+    margin-top: 30px;
+}
+
+.single-elem h1{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.single-elem h4{
+    font-size: 10px;
+    font-family:"Myriad Reg", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.single-elem p{
+    margin-top: 30px;
+    font-size: 14px;
+    font-family:"Myriad Reg", sans-serif;
+}
+.read-elem{
+    text-align: center;
+}
+
+.read-button{
+    height: 30px;
+    width: 120px;
+    color: #000;
+    background-color: #fff;
+    border: 5px solid #fff;
+    border-radius: 55px;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.read-button:hover {
+    color: #000;
+    border: 2px solid #000;
+    background-color: #ffe400;
+}
+
+.letest-elem{
+    margin-top: -120px;
+    text-align: center;
+}
+
+.video-button{
+    height: 50px;
+    width: 50px;
+    color: #000;
+    background-color: #ffe400;
+    border: 5px solid #ffe400;
+    border-radius: 55px;
+}
+
+.send-container {
+    margin-top: 180px;
+    padding-bottom: 90px;
+}
+
+.send-container h1{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.send-button{
+    margin-top: 115px;
+}
+
+.input-elem{
+    display: inline-block;
+    margin:  0 10px;
+
+}
+.input-elem input, .input-elem textarea{
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: #e5e5e5;
+    border: 5px solid #e5e5e5 ;
+    border-radius: 8px;
+    color: #444444;
+    font-size: 14px;
+    padding: 0 16px ;
+}
+.input-elem textarea{
+    resize: none;
+}
+
+
+.elem-button{
+    height: 60px;
+    width: 145px;
+    color: #ffe400;
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: 2px;
+    font-size: 18px;
+    font-family:"Myriad Reg", sans-serif;
+    text-transform: uppercase;
+    margin: 0 10px;
+    margin-top: 15px;
+}
+
+.elem-button:hover {
+    color: #000;
+    border: 2px solid #ffe400;
+    background-color: #ffe400;
+}
+.map-container{
+    background-color: #fde51d;
+    padding-bottom: 60px;
+}
+
+.map-container h1{
+    margin-top: 65px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.footer-elem{
+    background-color: #212121;
+}
+
+.footer-elem p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-family:"Myriad Reg", sans-serif;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .main-container {
+        text-align: center;
+    }
+    .main-headers h1{
+        font-size: 20px;
+    }
+    .about-container{
+        text-align: center;
+    }
+
+    .about-container h1{
+        font-size:20px ;
+    }
+    .creative-elem p{
+        font-size: 14px;
+    }
+
+    .main-buttons{
+        margin-bottom: 30px;
+    }
+
+    .advantages-element-inner{
+        margin-bottom: 30px;
+    }
+
+
+    .responsive-container .container{
+        margin:  20px 0;
+        text-align: center;
+    }
+
+     .boost h1, p{
+        text-align: center;
+    }
+    .boost .picture{
+        margin-top: -80px;
+    }
+
+     .list li{
+         text-align: center !important;
+     }
+     .col-lg-6{
+       text-align: center;
+     }
+     .preview-container{
+         text-align: center;
+     }
+
+    .preview-container h1{
+        font-size: 40px;
+    }
+
+    .information-buttons{
+        margin-bottom: 30px;
+    }
+
+    .creative-container {
+        text-align: center;
+    }
+
+    .service-container{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .service-container h1{
+        margin-top: 20px;
+    }
+
+    .plan-container h1{
+        margin-top: 30px;
+    }
+
+    .standard-elem{
+        margin-top: 10px;
+    }
+
+    .blog-container{
+        margin-top: 30px;
+    }
+
+    .gallery-elem{
+        margin-top: 20px;
+    }
+
+    .send-container{
+        margin-top: 10px;
+    }
+
+    .send-button{
+        margin-top: 10px;
+    }
+
+    .send-elem{
+        margin-top: -20px;
+    }
+
+    .map-container{
+        padding-bottom:  10px;
+    }
+
+    .map-container h1{
+        margin-top: 10px;
+    }
+
+     .button-base{
+    width: 130px;
+    }
+
+     .provide-elem h6{
+         font-size: 10px;
+     }
+
+     .work-container h1{
+         font-size: 20px;
+     }
+}
